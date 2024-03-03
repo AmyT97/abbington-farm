@@ -1,0 +1,232 @@
+/* Template CSS: */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  background-color: #ff6347;
+  align-items: flex-end;
+  gap: 12px;
+  padding-bottom: 6px;
+}
+
+.logo {
+  width: 190px;
+  height: 190px;
+  padding: 8px;
+  align-self: baseline;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: #ffff53;
+  padding: 2px 10px;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.button-text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  color: #042e17;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header a {
+  cursor: pointer;
+  text-decoration: dotted;
+  color: #042e17;
+}
+
+.footer {
+  background-color: #042e17;
+  color: #ffff53;
+  text-align: center;
+  padding: 50px;
+  margin-top: 16px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Index CSS:  */
+
+#visit-abbington {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background-image: url(../images/heartfarmhouse_gary-ellis--MLToEqh7dM-unsplash-fotor-2024021820240.png);
+  background-position: right 10% center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.visit-abbington-header {
+  position: absolute;
+  top: 20%;
+  left: 17%;
+  font-size: 4rem;
+  color: #042e17;
+}
+
+.visit-abbington-text {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  width: 515px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #042e17;
+}
+
+.homepage-contents {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  background-color: rgb(228, 228, 228);
+}
+
+.homepage-content {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.homepage-image-one,
+.homepage-content-one {
+  width: 50%;
+  padding: 1rem;
+}
+
+.homepage-image-one img {
+  width: 100%;
+}
+
+.homepage-content-title {
+  font-size: 32px;
+  color: #042e17;
+}
+
+.homepage-content-subtitle {
+  font-size: 20px;
+  color: #042e17;
+  margin-top: 16px;
+}
+
+#active-link {
+  text-decoration: underline;
+}
+
+/* CSS for cards: */
+
+.shop-items-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: wrap row;
+  background-color: white;
+  gap: 16px;
+  color: #042e17;
+}
+
+.individual-card {
+  background-color: white;
+  width: 300px;
+  padding: 16px;
+  align-content: center;
+  border: 2px solid #1dbe02;
+}
+
+.individual-card img {
+  width: 100%;
+  max-height: 50%;
+}
+
+.card-title {
+  padding-top: 16px;
+}
+
+.sub-title {
+  padding-top: 16px;
+  align-content: left;
+}
+
+/* CSS for contact form */
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  color: #042e17;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding: 32px;
+  gap: 5px;
+  background-color: #f69312;
+  border: solid #042e17 2px;
+  color: #042e17;
+}
+
+.input {
+  height: 30px;
+}
+
+.message-input {
+  height: 300px;
+}
+
+/* CSS for gallery.html */
+
+#gallery {
+  width: 100%;
+  color: #042e17;
+}
+
+.gallery-header {
+  text-align: center;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  margin: 1rem;
+  border: 3px solid #f69312;
+  max-width: 30vw;
+}
